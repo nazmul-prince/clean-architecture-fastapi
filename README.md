@@ -1,1 +1,3 @@
-# clean-architecture-fastapi
+# event-management
+event management service
+

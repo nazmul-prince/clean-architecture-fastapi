@@ -1,0 +1,15 @@
+variables:
+  imageAppVersion: "0.0.2"
+  replicaCount: 1
+
+  imageRepository: devpentabd/voganti-user-management-dev
+  imagePullPolicy: Always
+
+  hostName: voganti-user-management-dev.svc.cluster.voganti
+  serviceType: NodePort
+  servicePort: 80
+  #servicePort: 443
+  serviceTargetPort: 7711
+  nodePort: 30103
+
+  imagePullSecrets: regcred
